@@ -11,8 +11,8 @@
 		CD3A7D232264268400518091 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3A7D222264268400518091 /* ViewController.swift */; };
 		CD3A7D252264268500518091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3A7D242264268500518091 /* Assets.xcassets */; };
 		CD3A7D282264268500518091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3A7D262264268500518091 /* Main.storyboard */; };
-		CD3A7D342264268500518091 /* AutoMacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3A7D332264268500518091 /* AutoMacOSTests.swift */; };
 		CD3A7D3F2264268500518091 /* AutoMacOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3A7D3E2264268500518091 /* AutoMacOSUITests.swift */; };
+		CD3A7D5222642BED00518091 /* AutoMacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3A7D332264268500518091 /* AutoMacOSTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +46,7 @@
 		CD3A7D3A2264268500518091 /* AutoMacOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoMacOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3A7D3E2264268500518091 /* AutoMacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoMacOSUITests.swift; sourceTree = "<group>"; };
 		CD3A7D402264268500518091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3A7D4F22642A8300518091 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 				CD3A7D322264268500518091 /* AutoMacOSTests */,
 				CD3A7D3D2264268500518091 /* AutoMacOSUITests */,
 				CD3A7D1E2264268400518091 /* Products */,
+				CD3A7D4E22642A8300518091 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +124,14 @@
 				CD3A7D402264268500518091 /* Info.plist */,
 			);
 			path = AutoMacOSUITests;
+			sourceTree = "<group>";
+		};
+		CD3A7D4E22642A8300518091 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD3A7D4F22642A8300518091 /* XCTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD3A7D342264268500518091 /* AutoMacOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD3A7D5222642BED00518091 /* AutoMacOSTests.swift in Sources */,
 				CD3A7D3F2264268500518091 /* AutoMacOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
