@@ -12,7 +12,7 @@
 	<true/>
     <key>com.apple.security.temporary-exception.files.absolute-path.read-write</key>
     <array>
-        <string>/usr/local/bin/blueutil/string>
+        <string>/usr/local/bin/blueutil</string>
     </array>
 </dict>
 </plist>
