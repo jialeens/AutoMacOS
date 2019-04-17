@@ -110,7 +110,7 @@
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <menu id="rgy-IU-xXk">
                     <items>
-                        <menuItem title="退出" state="on" id="dje-z4-yP9">
+                        <menuItem title="退出" id="dje-z4-yP9">
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
                                 <action selector="appClose:" target="Voe-Tx-rLC" id="aNG-qT-U9t"/>

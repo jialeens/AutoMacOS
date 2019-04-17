@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  AutoMacOS
+//  AutoSwitch
 //
 //  Created by ens on 2019/4/15.
 //  Copyright © 2019 jialeens. All rights reserved.
